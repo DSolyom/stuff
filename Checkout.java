@@ -60,6 +60,7 @@ public class Checkout {
 				
 				if (parts[1].contains("SNAPSHOT")) {
 					lines.add("git checkout 10.x");
+					lines.add("git merge --ff-only");
 				} else {
 					parts[1] = parts[1].trim();
 					String git = parts[0] + "-" + parts[1].substring(1, parts[1].length() - 2);
