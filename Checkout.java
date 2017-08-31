@@ -52,6 +52,7 @@ public class Checkout {
 			System.out.println("" + split.length);
 			for (String line : split) {
 				String[] parts = line.split(":");
+				parts[0] = parts[0].trim().replace("_", "-");
 				
 				lines.add("cd " + parts[0]);
 				lines.add("git fetch");
@@ -60,7 +61,6 @@ public class Checkout {
 				if (parts[1].contains("SNAPSHOT")) {
 					lines.add("git checkout 10.x");
 				} else {
-					parts[0] = parts[0].trim().replace("_", "-");
 					parts[1] = parts[1].trim();
 					String git = parts[0] + "-" + parts[1].substring(1, parts[1].length() - 2);
 					lines.add("git checkout " + git);
