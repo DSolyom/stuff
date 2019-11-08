@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+    <TextView android:id="@+id/level"
+              android:textSize="18sp"
+              android:textColor="@color/board_background"
+              android:layout_margin="12dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+    />
+
+    <com.ds.symbols_base.TargetSymbol android:id="@+id/target_symbol" android:layout_width="match_parent"
+                                      android:layout_height="0dp"
+                                      android:layout_weight="1"
+                                      android:layout_marginStart="64dp"
+                                      android:layout_marginEnd="64dp"
+                                      android:layout_marginTop="64dp"
+                                      android:layout_marginBottom="16dp"
+                                      android:background="@color/board_background"/>
+
+    <com.ds.symbols_base.TheGrid
+            android:id="@+id/the_grid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+    />
+
+    <LinearLayout android:id="@+id/button_container" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="16dp">
+        <View android:id="@+id/no_button" android:layout_width="0dp" android:layout_height="72dp"
+              android:layout_weight="1"/>
+
+        <ImageButton android:id="@+id/btn_back"
+                     android:layout_height="72dp"
+                     android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:src="@drawable/arrowleft"/>
+
+        <ImageButton android:id="@+id/btn_next"
+                     android:layout_height="72dp"
+                     android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:src="@drawable/arrowright"/>
+
+        <ImageButton android:id="@+id/btn_done"
+                     android:layout_height="72dp"
+                     android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:src="@drawable/check"/>
+    </LinearLayout>
+
+</LinearLayout>

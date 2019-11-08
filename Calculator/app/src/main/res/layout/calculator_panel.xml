@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/panel_background"
+              android:paddingLeft="1dp"
+              android:paddingStart="1dp"
+              android:paddingTop="1dp"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingBottom="1dp">
+        <Button android:id="@+id/reset"
+                style="@style/CalculatorButton"
+                android:text="C"
+                android:textColor="@color/colorPrimaryDark"
+        />
+
+        <Button android:id="@+id/delete"
+                style="@style/CalculatorButton"
+                android:text="Del"
+        />
+
+        <Button android:id="@+id/percent"
+                style="@style/CalculatorButton"
+                android:text="%"
+        />
+
+        <Button android:id="@+id/divide"
+                style="@style/CalculatorButton"
+                android:text="/"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingBottom="1dp">
+        <Button android:id="@+id/seven"
+                style="@style/CalculatorButton"
+                android:text="7"
+        />
+
+        <Button android:id="@+id/eight"
+                style="@style/CalculatorButton"
+                android:text="8"
+        />
+
+        <Button android:id="@+id/nine"
+                style="@style/CalculatorButton"
+                android:text="9"
+        />
+
+        <Button android:id="@+id/multiple"
+                style="@style/CalculatorButton"
+                android:text="X"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingBottom="1dp">
+        <Button android:id="@+id/four"
+                style="@style/CalculatorButton"
+                android:text="4"
+        />
+
+        <Button android:id="@+id/five"
+                style="@style/CalculatorButton"
+                android:text="5"
+        />
+
+        <Button android:id="@+id/six"
+                style="@style/CalculatorButton"
+                android:text="6"
+        />
+
+        <Button android:id="@+id/subtract"
+                style="@style/CalculatorButton"
+                android:text="-"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingBottom="1dp">
+        <Button android:id="@+id/one"
+                style="@style/CalculatorButton"
+                android:text="1"
+        />
+
+        <Button android:id="@+id/two"
+                style="@style/CalculatorButton"
+                android:text="2"
+        />
+
+        <Button android:id="@+id/three"
+                style="@style/CalculatorButton"
+                android:text="3"
+        />
+
+        <Button android:id="@+id/add"
+                style="@style/CalculatorButton"
+                android:text="+"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingBottom="1dp">
+        <Button android:id="@+id/noting"
+                style="@style/CalculatorButton"
+                android:enabled="false"
+        />
+
+        <Button android:id="@+id/zero"
+                style="@style/CalculatorButton"
+                android:text="0"
+        />
+
+        <Button android:id="@+id/decimal"
+                style="@style/CalculatorButton"
+                android:text="."
+        />
+
+        <Button android:id="@+id/check_result"
+                style="@style/CalculatorButton"
+                android:text="="
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/panel_button_background_dark"
+        />
+    </LinearLayout>
+</LinearLayout>

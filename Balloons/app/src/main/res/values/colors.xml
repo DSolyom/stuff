@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="sky">#ABFCF4</color>
+
+    <color name="balloon_1">#223DEA</color>
+    <color name="balloon_2">#EA223D</color>
+    <color name="balloon_3">#FCFC02</color>
+    <color name="balloon_4">#3DEA22</color>
+    <color name="balloon_5">#FF99FF</color>
+    <color name="balloon_6">#9900FF</color>
+
+    <array name="balloon_pack">
+        <item>@color/balloon_1</item>
+        <item>@color/balloon_2</item>
+        <item>@color/balloon_3</item>
+        <item>@color/balloon_4</item>
+        <item>@color/balloon_5</item>
+        <item>@color/balloon_6</item>
+    </array>
+</resources>

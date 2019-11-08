@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="value_size">56sp</dimen>
+    <dimen name="value_margin">2dp</dimen>
+
+    <dimen name="operator_size">32sp</dimen>
+    <dimen name="operator_margin_vertical">2dp</dimen>
+    <dimen name="operator_margin_horizontal">48dp</dimen>
+
+    <dimen name="result_size">24sp</dimen>
+    <dimen name="result_margin">16dp</dimen>
+</resources>

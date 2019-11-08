@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#161616</color>
+    <color name="colorPrimaryDark">#66CCCC</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="background">#F0F0F0</color>
+
+    <color name="panel_background">#E2E4E4</color>
+    <color name="panel_button_normal">#FFFFFF</color>
+    <color name="panel_button_pressed">#C0C0C0</color>
+    <color name="panel_button_dark_normal">@color/colorPrimaryDark</color>
+    <color name="panel_button_dark_pressed">#00868B</color>
+
+    <color name="good">#30DF30</color>
+    <color name="bad">#DF3030</color>
+</resources>

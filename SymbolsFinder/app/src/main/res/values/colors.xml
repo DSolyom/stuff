@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="background">#0f3529</color>
+    <color name="board_background">#FFFFFF</color>
+    <color name="grid">#000</color>
+    <color name="unselected">#000</color>
+    <color name="selected">#FFD700</color>
+    <color name="found">#3DEA22</color>
+    <color name="wrong">#EA223D</color>
+</resources>

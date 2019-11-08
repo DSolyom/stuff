@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp"
+    >
+
+        <TextView android:id="@+id/first"
+                  android:textColor="@color/colorPrimary"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/value_size"
+                  android:layout_margin="@dimen/value_margin"
+                  android:gravity="end"
+        />
+
+        <TextView android:id="@+id/second"
+                  android:textColor="@color/colorPrimary"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/value_size"
+                  android:layout_margin="@dimen/value_margin"
+                  android:gravity="end"
+        />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/colorPrimary"
+                  android:text="="
+                  android:textSize="@dimen/operator_size"
+                  android:layout_marginTop="@dimen/operator_margin_vertical"
+                  android:layout_marginBottom="@dimen/operator_margin_vertical"
+                  android:layout_marginRight="@dimen/operator_margin_horizontal"
+                  android:layout_marginLeft="@dimen/operator_margin_horizontal"
+                  android:gravity="end"
+        />
+
+        <TextView android:id="@+id/result"
+                  android:textColor="@color/colorPrimary"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="@dimen/value_size"
+                  android:layout_margin="@dimen/value_margin"
+                  android:gravity="end"
+        />
+    </LinearLayout>
+
+    <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/calculator_panel"
+    />
+</LinearLayout>
